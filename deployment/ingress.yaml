@@ -12,9 +12,9 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - nom-appli.lab.sspcloud.fr
+    - appli-kelly.lab.sspcloud.fr
   rules:
-  - host: nom-appli.lab.sspcloud.fr
+  - host: appli-kelly.lab.sspcloud.fr
     http:
       paths:
       - path: /

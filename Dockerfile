@@ -5,7 +5,7 @@ RUN apt-get -y update && \
     apt-get install -y python3-pip
 
 # Install project dependencies
-COPY pyproject.toml
+COPY pyproject.toml .
 RUN uv sync
 
 COPY src ./src
